@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "EduTrust",
+    "slug": "edutrust-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4F46E5"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "backendUrl": "http://192.168.29.92:8000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.edutrust.mobile",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access to scan certificates",
+        "NSPhotoLibraryUsageDescription": "This app needs photo library access to upload certificate images"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4F46E5"
+      },
+      "package": "com.edutrust.mobile",
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "VIBRATE"
+      ],
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "minSdkVersion": 23,
+      "usesCleartextTraffic": true,
+      "networkSecurityConfig": "./android-network-security-config.xml",
+      "softwareKeyboardLayoutMode": "pan",
+      "allowBackup": true,
+      "enableProguardInReleaseBuilds": true,
+      "enableHermes": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-reanimated/plugin",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow EduTrust to access your camera to scan certificates"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow EduTrust to access your photos to upload certificates"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "appName": "EduTrust",
+  "tagline": "AI-Powered Multi-Language Certificate Authentication",
+  "nav": {
+    "home": "Home",
+    "verify": "Verify Certificate",
+    "admin": "Admin Dashboard",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "welcome": {
+    "title": "Welcome to EduTrust",
+    "subtitle": "Verify certificates easily and securely",
+    "login": "Login",
+    "explore": "Explore"
+  },
+  "home": {
+    "hero": {
+      "title": "Verify Academic Certificates in Seconds",
+      "subtitle": "AI-powered platform for real-time certificate verification with multi-language OCR support",
+      "cta": "Verify Now",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Key Features",
+      "ocr": {
+        "title": "Multi-Language OCR",
+        "description": "Support for regional Indian scripts including Hindi, Tamil, Telugu, Bengali, and more"
+      },
+      "ai": {
+        "title": "AI Anomaly Detection",
+        "description": "Advanced AI algorithms detect tampering in fonts, seals, and signatures"
+      },
+      "blockchain": {
+        "title": "Blockchain Security",
+        "description": "Tamper-proof digital certificates with blockchain verification"
+      },
+      "instant": {
+        "title": "Instant Verification",
+        "description": "Verify certificates in seconds instead of days or weeks"
+      }
+    },
+    "stats": {
+      "verified": "Certificates Verified",
+      "universities": "Partner Universities",
+      "accuracy": "Accuracy Rate",
+      "languages": "Languages Supported"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Upload Certificate",
+        "description": "Upload the certificate image or PDF you want to verify"
+      },
+      "step2": {
+        "title": "AI Analysis",
+        "description": "Our AI analyzes the document using OCR and anomaly detection"
+      },
+      "step3": {
+        "title": "Get Results",
+        "description": "Receive instant verification results with detailed analysis"
+      }
+    },
+    "cta": {
+      "title": "Ready to Verify Your Certificate?",
+      "subtitle": "Join thousands of institutions using EduTrust for secure certificate verification",
+      "button": "Start Verification"
+    }
+  },
+  "verify": {
+    "title": "Verify Certificate",
+    "subtitle": "Upload a certificate to verify its authenticity",
+    "upload": {
+      "title": "Upload Certificate",
+      "description": "Drag and drop or click to upload",
+      "formats": "Supported formats: JPG, PNG, PDF (Max 10MB)",
+      "button": "Choose File"
+    },
+    "or": "OR",
+    "certificateId": {
+      "title": "Enter Certificate ID",
+      "placeholder": "Enter certificate ID",
+      "button": "Verify"
+    },
+    "processing": "Processing certificate...",
+    "result": {
+      "title": "Verification Result",
+      "status": "Status",
+      "authentic": "Authentic",
+      "fake": "Potentially Fake",
+      "details": "Certificate Details",
+      "studentName": "Student Name",
+      "institution": "Institution",
+      "degree": "Degree",
+      "issueDate": "Issue Date",
+      "certificateId": "Certificate ID",
+      "confidence": "Confidence Score",
+      "warnings": "Warnings Detected",
+      "viewDetails": "View Full Report"
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "overview": "Overview",
+    "stats": {
+      "totalVerifications": "Total Verifications",
+      "authenticCerts": "Authentic Certificates",
+      "fakeCerts": "Fake Certificates Detected",
+      "pendingReviews": "Pending Reviews"
+    },
+    "recentVerifications": "Recent Verifications",
+    "blacklist": "Blacklist Management",
+    "trends": "Verification Trends",
+    "universities": "Partner Universities",
+    "settings": "Settings",
+    "languageDistribution": "Language Distribution",
+    "table": {
+      "certificateId": "Certificate ID",
+      "student": "Student",
+      "institution": "Institution",
+      "status": "Status",
+      "date": "Date",
+      "authentic": "Authentic",
+      "fake": "Fake"
+    }
+  },
+  "about": {
+    "title": "About EduTrust",
+    "subtitle": "Revolutionizing certificate verification with AI-powered technology",
+    "mission": "Our Mission",
+    "missionText": "To eliminate fake and forged degree misuse in jobs, admissions, and government schemes through advanced AI-powered verification.",
+    "missionDescription": "EduTrust leverages cutting-edge AI technology, OCR capabilities, and blockchain security to provide instant, accurate verification of academic certificates. Our platform serves universities, employers, and government agencies across India.",
+    "howItWorks": "How It Works",
+    "technology": "Technology Stack",
+    "team": "Our Team",
+    "teamSubtitle": "Built by Team COSMOS for Smart India Hackathon 2025",
+    "teamDescription": "We are a passionate team of developers, AI researchers, and cybersecurity experts committed to solving the critical problem of certificate fraud in India&apos;s education system.",
+    "teamMission": "Our solution combines cutting-edge technology with practical usability to serve universities, employers, and students across the nation.",
+    "features": {
+      "secure": {
+        "title": "Secure & Reliable",
+        "description": "Bank-grade security with blockchain verification ensuring tamper-proof certificates"
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "description": "Verify certificates in seconds, not days or weeks"
+      },
+      "multilang": {
+        "title": "Multi-Language Support",
+        "description": "OCR support for 10+ Indian regional languages"
+      },
+      "trusted": {
+        "title": "Trusted by Thousands",
+        "description": "Used by 500+ universities and educational institutions"
+      }
+    },
+    "process": {
+      "step1": {
+        "title": "Upload & Extract",
+        "description": "Upload certificate image or PDF. Our multi-language OCR extracts text from documents in Hindi, Tamil, Telugu, Bengali, and 6+ other Indian languages."
+      },
+      "step2": {
+        "title": "AI Analysis",
+        "description": "Advanced AI algorithms analyze fonts, seals, signatures, and document structure. Detect tampering and anomalies with 99.8% accuracy."
+      },
+      "step3": {
+        "title": "Blockchain Verification",
+        "description": "Cross-reference with university databases and blockchain records. Provide instant, tamper-proof verification results."
+      }
+    },
+    "techStack": {
+      "react": "Modern UI framework",
+      "aiml": "Advanced anomaly detection",
+      "ocr": "Multi-language text recognition",
+      "blockchain": "Tamper-proof verification",
+      "cloud": "Scalable infrastructure",
+      "nodejs": "Robust backend"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help you?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your inquiry...",
+    "send": "Send Message",
+    "successMessage": "Thank you for your message! We&apos;ll get back to you soon.",
+    "info": {
+      "email": {
+        "title": "Email",
+        "primary": "info@edutrust.in",
+        "support": "support@edutrust.in"
+      },
+      "phone": {
+        "title": "Phone",
+        "toll": "+91 1800-123-4567",
+        "mobile": "+91 98765-43210"
+      },
+      "address": {
+        "title": "Office",
+        "line1": "EduTrust Technologies",
+        "line2": "Connaught Place",
+        "line3": "New Delhi - 110001",
+        "line4": "India"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekday": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "saturday": "Saturday: 10:00 AM - 4:00 PM",
+        "sunday": "Sunday: Closed"
+      }
+    }
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to your EduTrust account",
+    "email": "Email Address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot Password?",
+    "submit": "Sign In",
+    "signingIn": "Signing In...",
+    "demoCredentials": "Demo Credentials",
+    "demoEmail": "Email: testuser@edutrust.com or admin@edutrust.com",
+    "demoPassword": "Password: TestPass123 or AdminPass123",
+    "placeholders": {
+      "email": "Enter your email",
+      "password": "Enter your password"
+    }
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Join EduTrust for secure certificate verification",
+    "fullName": "Full Name",
+    "username": "Username",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "role": "Account Type",
+    "roleUser": "Regular User",
+    "roleAdmin": "Administrator",
+    "submit": "Create Account",
+    "creating": "Creating Account...",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in here",
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "username": "Choose a username",
+      "email": "Enter your email",
+      "password": "Create a strong password",
+      "confirmPassword": "Re-enter your password"
+    },
+    "passwordStrength": {
+      "label": "Password Strength",
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong"
+    },
+    "requirements": {
+      "title": "Password Requirements",
+      "minLength": "At least 8 characters",
+      "uppercase": "One uppercase letter",
+      "number": "One number",
+      "match": "Passwords must match"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your account settings and preferences",
+    "personalInfo": "Personal Information",
+    "fullName": "Full Name",
+    "username": "Username",
+    "email": "Email Address",
+    "role": "Account Type",
+    "memberSince": "Member Since",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "updateSuccess": "Profile updated successfully!",
+    "updateError": "Failed to update profile",
+    "stats": {
+      "verificationsTitle": "My Verifications",
+      "totalVerifications": "Total Verifications",
+      "authenticCerts": "Authentic Certificates",
+      "pendingReviews": "Pending Reviews"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "noActivity": "No recent activity"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "copyright": "© {{year}} EduTrust. All rights reserved. | Developed by Team COSMOS"
+  }
+}

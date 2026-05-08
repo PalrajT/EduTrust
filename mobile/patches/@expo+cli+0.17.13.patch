@@ -1,0 +1,23 @@
+diff --git a/node_modules/@expo/cli/build/src/start/server/metro/externals.js b/node_modules/@expo/cli/build/src/start/server/metro/externals.js
+index 8341467..849a0cd 100644
+--- a/node_modules/@expo/cli/build/src/start/server/metro/externals.js
++++ b/node_modules/@expo/cli/build/src/start/server/metro/externals.js
+@@ -79,14 +79,16 @@ function tapNodeShimContents(moduleId) {
+ async function tapNodeShims(projectRoot) {
+     const externals = {};
+     for (const moduleId of NODE_STDLIB_MODULES){
+-        const shimDir = _path.default.join(projectRoot, METRO_EXTERNALS_FOLDER, moduleId);
++        // Sanitize moduleId for use as directory name (remove node: prefix if present)
++        const sanitizedModuleId = moduleId.replace(/^node:/, '');
++        const shimDir = _path.default.join(projectRoot, METRO_EXTERNALS_FOLDER, sanitizedModuleId);
+         const shimPath = _path.default.join(shimDir, "index.js");
+         externals[moduleId] = shimPath;
+         if (!_fs.default.existsSync(shimPath)) {
+             await _fs.default.promises.mkdir(shimDir, {
+                 recursive: true
+             });
+-            await _fs.default.promises.writeFile(shimPath, tapNodeShimContents(moduleId));
++            await _fs.default.promises.writeFile(shimPath, tapNodeShimContents(sanitizedModuleId));
+         }
+     }
+ }
