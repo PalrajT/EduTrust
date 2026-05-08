@@ -511,7 +511,11 @@ const unsubscribe = NetInfo.addEventListener(state => {
 })
 ```
 
-## 📚 Resources
+## � Team
+
+**Mobile app maintained by Palraj T and Aswin Raj**
+
+## �📚 Resources
 
 - [React Native Docs](https://reactnative.dev/docs/getting-started)
 - [Expo Documentation](https://docs.expo.dev/)
@@ -520,4 +524,4 @@ const unsubscribe = NetInfo.addEventListener(state => {
 
 ---
 
-**Mobile app maintained by Team COSMOS**
+**Mobile app maintained by Palraj T and Aswin Raj**

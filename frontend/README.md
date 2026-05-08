@@ -396,7 +396,11 @@ Breakpoints:
 - `xl`: 1280px
 - `2xl`: 1536px
 
-## 🚢 Deployment
+## � Team
+
+**Frontend maintained by Palraj T and Aswin Raj**
+
+## �🚢 Deployment
 
 ### Static Hosting (Netlify, Vercel)
 
@@ -480,4 +484,4 @@ npm install
 
 ---
 
-**Frontend maintained by Team COSMOS**
+**Frontend maintained by Palraj T and Aswin Raj**

@@ -506,6 +506,6 @@ Expected performance on recommended hardware:
 
 ---
 
-**Setup guide maintained by Team COSMOS**
+**Setup guide maintained by Palraj T and Aswin Raj**
 
 Last updated: November 2025

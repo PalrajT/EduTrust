@@ -286,79 +286,16 @@ npm run test
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## 👥 Project Team
+## � Team
 
-### Student Details
-- **Project Guide**: Dr. [Guide Name]
-- **Department**: Computer Science & Engineering
-- **Institution**: [Your College/University Name]
-- **Academic Year**: 2024-2025
-- **Semester**: VII/VIII
+**EduTrust is developed and maintained by Palraj T and Aswin Raj**
 
-### Team Members
-1. **[Your Name]** - Team Lead & Backend Developer
-   - Roll No: [Your Roll Number]
-   - Email: [your.email@college.edu]
-   - Responsibilities: System architecture, backend development, AI/ML integration
-
-2. **[Team Member 2]** - Frontend Developer
-   - Roll No: [Roll Number]
-   - Email: [email@college.edu]
-   - Responsibilities: React UI development, responsive design, i18n
-
-3. **[Team Member 3]** - Mobile Developer
-   - Roll No: [Roll Number]
-   - Email: [email@college.edu]
-   - Responsibilities: React Native app, mobile UI/UX
-
-4. **[Team Member 4]** - AI/ML Engineer
-   - Roll No: [Roll Number]
-   - Email: [email@college.edu]
-   - Responsibilities: OCR optimization, anomaly detection algorithms
-
-## 📄 License
+## �📄 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
-## 🙏 Acknowledgments
-
-We express our sincere gratitude to:
-
-- **Dr. [Guide Name]**, our project guide, for invaluable guidance and support throughout the project
-- **[Head of Department Name]**, HOD, Department of CSE, for providing necessary resources and facilities
-- **[College/University Name]** for providing the infrastructure and research environment
-- The faculty members of the Department of Computer Science & Engineering for their continuous support
-- Our families and friends for their encouragement and support
-- The open-source community for providing excellent tools and libraries
-
 ## 📞 Contact
 
-For academic queries and collaboration:
-- **Project Repository**: https://github.com/PalrajT/SIH-2025-COSMOS
-- **Email**: [your.email@college.edu]
-- **Institution**: [Your College/University Name]
-- **Department**: Computer Science & Engineering
-
-## 📚 Project Documentation
-
-Complete project documentation including:
-- Project Report (PDF)
-- System Design Document
-- API Documentation
-- User Manual
-- Testing Reports
-- Presentation Slides
-
-Available in the `docs/` directory.
-
----
-
-<div align="center">
-
-**Final Year Project (2024-2025)**  
-**Department of Computer Science & Engineering**  
-**[Your College/University Name]**
-
-*Developed with dedication for combating educational certificate fraud in India*
-
-</div>
+For questions, suggestions, or collaborations:
+- **GitHub**: https://github.com/PalrajT/EduTrust
+- **Email**: contact@edutrust.dev

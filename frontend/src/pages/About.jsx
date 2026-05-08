@@ -152,19 +152,34 @@ const About = () => {
             </p>
           </div>
 
-          <div className="flex justify-center mb-12">
-            {/* Team Member - Palraj T */}
+          <div className="flex justify-center gap-8 mb-12 flex-wrap">
+            {/* Team Member - Palraj */}
             <div className="overflow-hidden transition-all duration-300 transform card hover:shadow-2xl hover:-translate-y-2 max-w-sm">
               <div className="text-center">
                 <div className="relative mx-auto mb-4">
                   <div className="flex items-center justify-center w-24 h-24 mx-auto transition-all duration-300 transform rounded-full bg-gradient-to-br from-blue-400 to-blue-600 group-hover:scale-110">
-                    <span className="text-3xl font-bold text-white">PT</span>
+                    <span className="text-3xl font-bold text-white">P</span>
                   </div>
                   <div className="absolute bottom-0 right-0 w-6 h-6 bg-green-500 border-4 border-white rounded-full"></div>
                 </div>
                 <h3 className="mb-1 text-xl font-bold text-gray-900">Palraj T</h3>
                 <p className="mb-3 font-medium text-blue-600">Full Stack Developer</p>
                 <p className="text-sm text-gray-600">Building robust APIs, database architecture, and user interfaces for scalable operations</p>
+              </div>
+            </div>
+
+            {/* Team Member - Aswinraj */}
+            <div className="overflow-hidden transition-all duration-300 transform card hover:shadow-2xl hover:-translate-y-2 max-w-sm">
+              <div className="text-center">
+                <div className="relative mx-auto mb-4">
+                  <div className="flex items-center justify-center w-24 h-24 mx-auto transition-all duration-300 transform rounded-full bg-gradient-to-br from-green-400 to-green-600 group-hover:scale-110">
+                    <span className="text-3xl font-bold text-white">A</span>
+                  </div>
+                  <div className="absolute bottom-0 right-0 w-6 h-6 bg-green-500 border-4 border-white rounded-full"></div>
+                </div>
+                <h3 className="mb-1 text-xl font-bold text-gray-900">Aswin Raj</h3>
+                <p className="mb-3 font-medium text-green-600">AI/ML & Backend Engineer</p>
+                <p className="text-sm text-gray-600">Developing AI models, OCR systems, and intelligent verification algorithms for certificate authentication</p>
               </div>
             </div>
           </div>

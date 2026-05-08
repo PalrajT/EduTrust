@@ -426,10 +426,10 @@ WantedBy=multi-user.target
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
 - [OpenCV Python](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 
+## 👥 Team
+
+**Backend maintained by Palraj T and Aswin Raj**
+
 ## 🤝 Contributing
 
 See main [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
-
----
-
-**Backend maintained by Team COSMOS**
