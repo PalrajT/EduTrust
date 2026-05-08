@@ -2,8 +2,6 @@
 
 <div align="center">
 
-**Final Year Project (2024-2025)**  
-**Department of Computer Science & Engineering**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.119+-green.svg)](https://fastapi.tiangolo.com/)
